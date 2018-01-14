@@ -5,12 +5,12 @@ The sio-projet-fil-rouge project is a sudy case for the MS SIO students, it cons
 
 The choice of implementation is :
 
-    * Maven
-    * Kotlin
-    * Spring Boot
-    * JPA2 with H2 database
-    * Oauth2
-    * io.springfox Swagger annotation API
+ * Maven
+ * Kotlin
+ * Spring Boot
+ * JPA2 with H2 database
+ * Oauth2
+ * io.springfox Swagger annotation API
 
 This project is a POC of RESTfull API project with Kotlin, Spring Boot, and a Oauth2 authentication via social network
 (I choose authentication via github).
