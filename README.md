@@ -20,11 +20,11 @@ This project is a POC of RESTfull API project with Kotlin, Spring Boot, and a Oa
 
 ## Running the project
 
-`$ cd <path-to-the-project>`
-then
+`$ cd <path-to-the-project>`  
+then  
 `$ mvn spring-boot:run`
 
-or
+or  
 `$ java -jar target/myproject-0.0.1-SNAPSHOT.jar`
 
 ## Testing the project
