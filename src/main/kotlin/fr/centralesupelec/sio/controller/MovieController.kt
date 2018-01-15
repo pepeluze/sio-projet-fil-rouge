@@ -77,7 +77,7 @@ class MovieController(private val moviesRepository: MoviesRepository) {
         movies = if (setActors.isNotEmpty()) movies.filter { it.actors!!.containsAll(setActors) } else movies
 
         // Third step create the sublist in terms of offset and limit parameters
-        movies = if (offset != null) movies.subList(offset.toInt(), movies.lastIndex) else movies
+        movies = if (offset != null && offset < movies.size) movies.subList(offset.toInt(), movies.lastIndex) else movies
         movies = if (limit != null && limit < movies.size) movies.subList(0, limit.toInt()) else movies
 
         return movies
